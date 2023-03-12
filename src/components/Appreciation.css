@@ -1,0 +1,40 @@
+.appreciation-container{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 375px;
+    background-color: rgb(25 25 37);
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+#thankyou-image{
+   margin-top: 30px;
+}
+
+#rating-block{
+    margin :  20px auto;
+    color: rgb(226, 115, 24);
+    background-color: rgb(61, 61, 71);
+    border: 2px solid rgb(61, 61, 71);
+    border-radius: 20px;
+    padding: 0px 15px 5px 15px ;
+    font-size: medium;
+}
+
+#thankyou-block{
+    color: white;
+    font-size: x-large;
+    position: relative;
+    font-weight: bolder;
+    bottom: 15px;
+}
+#thankyou-description-block{
+    color: rgb(137, 130, 130);
+    font-size: medium;
+    margin:  auto 12px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
